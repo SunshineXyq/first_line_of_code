@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.helloworld.intent.IntentTestActivity">
+
+    <Button
+        android:id="@+id/btn_create_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建闹铃"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createTimer"
+        android:text="创建定时器"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addDateEvent"
+        android:text="创建日历事件"/>
+
+</LinearLayout>
